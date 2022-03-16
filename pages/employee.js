@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../src/components/Layout'
-import Employee from '../src/components/Employee'
+import EmployeeList from '../src/components/EmployeeList'
 import Head from 'next/head'
 
 const employee = () => {
@@ -11,8 +11,8 @@ const employee = () => {
               <meta name="description" content="Empleados" />
               <link rel="icon" href="/favicon.svg" />
           </Head>
-          <div >
-            <Employee/>
+          <div>
+            <EmployeeList />
           </div>  
         </Layout>
         );

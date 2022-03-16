@@ -1,10 +1,7 @@
 import React from 'react'
 import Layout from '../src/components/Layout'
-// import Company from '../src/components/Company'
 import CompanyList from '../src/components/CompanyList'
 import Head from 'next/head'
-
-// Aqui dejare de renderizar company y cambiare por companyList
 
 const company = () => {
     return (
@@ -14,8 +11,7 @@ const company = () => {
               <meta name="description" content="Empresas" />
               <link rel="icon" href="/favicon.svg" />
           </Head>
-          <div >
-            {/* <Company/> */}
+          <div>
             <CompanyList />
           </div>  
         </Layout>
