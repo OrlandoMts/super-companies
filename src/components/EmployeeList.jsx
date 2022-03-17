@@ -24,7 +24,7 @@ const EmployeeList = () => {
   }, [])
 
   return (
-    <div>
+    <div className='relative'>
         <div className='container w-100 mt-[35px] mb-[35px] flex justify-center'>
           <h2 className='font-bold text-xl'>EMPLEADOS</h2>
         </div>
