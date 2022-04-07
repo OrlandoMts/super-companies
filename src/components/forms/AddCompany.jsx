@@ -13,6 +13,7 @@ const AddCompany = ({setVisible}) => {
             console.log(data);
 
             data.message === 'Success' && form.current.reset();
+            handleClose()
         } catch (error) {
             console.log('ERROR SUBMIT: ', error)
         }
